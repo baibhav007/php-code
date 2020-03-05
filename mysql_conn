@@ -1,0 +1,12 @@
+<?php
+	if(mysqli_connect("localhost","root","")=="True")
+	{
+		echo "connected";
+	}
+	else
+	{
+	echo "not connected";
+	}
+
+
+?>
